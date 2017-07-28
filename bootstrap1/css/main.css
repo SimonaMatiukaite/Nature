@@ -1,0 +1,580 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  width: 100%;
+  transform-style: preserve-3d;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+/*MAIN MENU*/
+/*.menu {
+  overflow: hidden;
+  background-color: #343434;
+  display: inline-block;
+  position: absolute;
+  width: auto;
+}*/
+
+/*END OF MAIN MENU*/
+
+/*CONTAINERS*/
+.pirmas{
+  background-image: url('../../wall_pics/papartis.jpg');
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+  background-attachment: fixed;
+  margin-top: -25px;
+}
+
+.antras {
+  background-color: #343434;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+  width: auto;
+
+}
+
+.trecias {
+  background-image: url('../../wall_pics/zieve.jpg');
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+  background-attachment: fixed;
+  width: auto;
+  height: 500px;
+  padding-top: 4%;
+}
+
+.ketvirtas {
+  background-color: #343434;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+  width: auto;
+}
+
+/*CONTACTS*/
+.penktas {
+  background-color: white;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+  width: auto;
+  height: auto;
+}
+
+.contacts {
+  background: rgba(255, 255, 255, 0.2);
+  width: 1390px;
+  height: 460px;
+  margin-top: 4%;
+  margin-left: 4%;
+  margin-bottom: 4%;
+  padding-left: 530px;
+  padding-top: 1%
+  }
+
+.form-control {
+  width: 40%;
+  /*padding-bottom: 1px;*/
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  resize: vertical;
+}
+
+.button {
+  color: white;
+  padding: 12px 140px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/*END OF CONTACTS
+
+/*FOOTER */
+  .footeris {
+    background-color: #232E35;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    width: auto;
+    height: 150px;
+  }
+
+  .footeriukas {
+    background-color: #232E35;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    width: auto;
+    height: 40px;
+  }
+
+  .foot-text {
+    color: #fff;
+    margin-left: 160px;
+    margin-top: 15%;
+  }
+
+  .foot-textukas {
+    color: #fff;
+    text-align: center;
+    margin-top: 0.7%;
+  }
+
+  .ranka {
+    margin-top: 15px;
+    margin-left: 175px;
+  }
+/*END OF FOOTER*/
+
+/*FONTS*/
+
+h1 {
+  color: #fff;
+  padding-left: 10px;
+  padding-top: 2%;
+}
+
+h2 {
+padding-left: 100px;
+}
+
+
+h9 {
+  font-size: 10px;
+  padding-left: 730px;
+  bottom: 10px;
+  position: absolute;
+}
+
+
+/*REMELIS*/
+.remelis {
+  border: solid 6px rgba(255, 255, 255, 0.5);
+  width: 1257px;
+  height: 480px;
+  margin-top: 3.5%;
+  margin-left: 2%;
+}
+
+/*PERMATOMAS STULPELIS*/
+.permatomas {
+  background: rgba(80, 80, 80, 0.4);
+  position: relative;
+  width: 1350px;
+  height: 567px;
+  margin-top: 3%;
+  margin-left: 6%;
+  margin-bottom: 3%;
+}
+
+.article {
+  color: #fff;
+  margin-top: 7px;
+  margin-left: 5px;
+}
+
+
+/*PERMATOMO STULPELIO END'AS*/
+
+/*CENTER ICONS*/
+.paw {
+  height: 90px;
+  width: 90px;
+  background-image: url('../../icons/ipaw70.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: absolute;
+  margin-top: 3%;
+  margin-left: 45%;
+}
+.paw:hover {
+  background-image: url('../../icons/bear96.png');
+  transition: .7s ease;
+}
+
+.triforce {
+  position: absolute;
+  margin-top: 9%;
+  margin-left: 37%;
+}
+
+.mushroom {
+  height: 96px;
+  width: 96px;
+  background-image: url('../../icons/imushroom75.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: absolute;
+  margin-top: 26%;
+  margin-left: 29%;
+}
+.mushroom:hover {
+  background-image: url('../../icons/mushroom96.png');
+  transition: .7s ease;
+}
+
+.leaf {
+  height: 75px;
+  width: 75px;
+  background-image: url('../../icons/ileaf70.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: absolute;
+  margin-top: 27%;
+  margin-left: 61%;
+}
+.leaf:hover {
+  background-image: url('../../icons/tree96.png');
+  transition: .7s ease;
+}
+/*END OF CENTER ICONS*/
+
+/*ABOUT page*/
+.about {
+  font-size: 21px;
+  color: #fff;
+  width: 1550px;
+  height: auto;
+  padding: 3%;
+}
+
+.aprasymas {
+  text-align: justify;
+  text-justify: inter-word;
+  background-color: rgba(80, 80, 80, 0.9);
+  margin: 3%;
+
+}
+
+.geltonas {
+  border: solid 30px #ffc602;
+  width: 250px;
+  height: 300px;
+  margin-top: 4%;
+  margin-left: 6%;
+}
+
+.article-1 {
+  background-color: #343434;
+  width: 300px;
+  height: 240px;
+  padding-top: 27%;
+  padding-left: 23%;
+}
+
+/*END OF ABOUT PAGE*/
+
+
+/*MAP PAGE*/
+
+
+/*END OF MAP PAGE*/
+
+
+/*SEARCH PAGE*/
+.search {
+  border: solid 0.5px #fff;
+  width: 1390px;
+  height: 660px;
+  margin-top: 4%;
+  margin-left: 3%;
+  margin-bottom: 4%;
+}
+
+.col-xs-2 {
+  padding: 2%;
+  margin: 1%;
+  background: rgba(80, 80, 80, 0.4);
+  color: #fff;
+}
+
+.abecele {
+  margin: 0%;
+  background: rgba(80, 80, 80, 0.4);
+}
+
+h4 {
+  color: #fff;
+}
+
+.col1 {
+  margin-left: 4%;
+}
+
+.col2 {
+  margin-top: 17%;
+}
+
+
+.col4 {
+  margin-top: 4%;
+}
+
+.col5 {
+  margin-top: 6%;
+}
+/*END OF SEARCH PAGE*/
+.law {
+  margin-top: 23%;
+  margin-left: 28%;
+  margin-bottom: 20%;
+}
+
+/*ANIMALS CAPTION*/
+.owl {
+  height: 100px;
+  width: 100px;
+  background-image: url('../../icons/iowl100.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: absolute;
+  margin-top: 7%;
+  margin-left:  400px;
+}
+
+.owl:hover {
+  background-image: url('../../icons/owl100.png');
+  transition: .7s ease;
+}
+
+.frog {
+  height: 96px;
+  width: 96px;
+  background-image: url('../../icons/ifrog96.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: absolute;
+  margin-top: 7%;
+  margin-left: 100px;
+}
+
+.frog:hover {
+  background-image: url('../../icons/frog96.png');
+  transition: .7s ease;
+}
+
+.rabbit {
+  height: 100px;
+  width: 100px;
+  background-image: url('../../icons/irabbit100.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: absolute;
+  margin-top: 7%;
+  margin-left: 750px;
+}
+
+.rabbit:hover {
+  background-image: url('../../icons/rabbit100.png');
+  transition: .7s ease;
+}
+
+.turtle {
+  height: 96px;
+  width: 96px;
+  background-image: url('../../icons/iturtle96.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: absolute;
+  margin-top: 8%;
+  margin-left: 1050px;
+}
+
+.turtle:hover {
+  background-image: url('../../icons/turtle96.png');
+  transition: .7s ease;
+}
+
+.slug {
+  height: 90px;
+  width: 90px;
+  background-image: url('../../icons/islug80.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: absolute;
+  margin-top: 14%;
+  margin-left: 250px;
+}
+
+.slug:hover {
+  background-image: url('../../icons/slugeat80.png');
+  transition: .7s ease;
+}
+
+.snail {
+  height: 96px;
+  width: 96px;
+  background-image: url('../../icons/isnail96.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: absolute;
+  margin-top: 14%;
+  margin-left: 900px;
+}
+
+.snail:hover {
+  background-image: url('../../icons/snail96.png');
+  transition: .7s ease;
+}
+
+.crab {
+  height: 96px;
+  width: 96px;
+  background-image: url('../../icons/icrab96.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: absolute;
+  margin-top: 19%;
+  margin-left: 400px;
+}
+
+.crab:hover {
+  background-image: url('../../icons/crab96.png');
+  transition: .7s ease;
+}
+
+.fish {
+  height: 100px;
+  width: 100px;
+  background-image: url('../../icons/ifish100.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 105px;
+}
+
+.fish:hover {
+  background-image: url('../../icons/fish100.png');
+  transition: .7s ease;
+}
+
+.insect {
+  height: 96px;
+  width: 96px;
+  background-image: url('../../icons/iinsect96.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: absolute;
+  margin-top: 19%;
+  margin-left: 745px;
+}
+
+.insect:hover {
+  background-image: url('../../icons/dragonfly96.png');
+  transition: .7s ease;
+}
+
+.spiderweb {
+  height: 70px;
+  width: 70px;
+  background-image: url('../../icons/ispiderweb70.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 1060px;
+}
+
+.h5 {
+  text-align: justify;
+
+}
+
+.spiderweb:hover {
+  background-image: url('../../icons/spider70.png');
+  transition: .7s ease;
+}
+/*END OF ANIMALS CAPTION*/
+
+/* APRASYMAI */
+.col-xs-9 {
+  background: rgba(80, 80, 80, 0.6);
+  width: 1179px;
+  height: 567px;
+  margin-top: 3%;
+  margin-left: 3%;
+  margin-bottom: 3%;
+}
+
+.col-xs-1 {
+  background: rgba(80, 80, 80, 0.4);
+  width: 180px;
+  height: 567px;
+  margin-top: 3%;
+  margin-left: 1%;
+  margin-bottom: 3%;
+  text-align: center;
+  color: #fff;
+}
+
+.remelis2 {
+  border: solid 6px rgba(255, 255, 255, 0.5);
+  width: 1090px;
+  height: 500px;
+  margin-top: 3%;
+  margin-left: 2.5%;
+}
+
+.remelis3 {
+  border: solid 6px rgba(255, 255, 255, 0.5);
+  width: 310px;
+  height: 425px;
+  margin-top: 11%;
+  margin-right: 3%;
+  position: relative;
+}
+/* END OF APRASYMAI */
+
+/*GALERIJA*/
+div.gallery {
+    margin: 5px;
+    border: 4px solid #ccc;
+    float: left;
+    width: 180px;
+    background-color: #ccc;
+    transition: 0.4s;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 16px;
+    text-align: center;
+}
+/*END OF GALLERY*/
+
+.pav1 {
+  align-items: center;
+  width: auto;
+  position: absolute;
+}
+
+/*PAGE END*/

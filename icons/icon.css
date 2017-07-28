@@ -1,0 +1,24 @@
+.row {
+  margin: 20px 0 20px 0;
+  padding: 20px;
+}
+
+.col-xs-9 {
+  background-color: red;
+}
+
+.col-xs-1 {
+  background-color: blue;
+}
+
+.row1 {
+  background-color: green;
+  margin: 30px 10px 0 20px;
+}
+
+.col-xs-4 {
+  background-color: yellow;
+}
+.col-xs-8 {
+  background-color: #f2f2f2;
+}
